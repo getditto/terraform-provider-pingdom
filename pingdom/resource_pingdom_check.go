@@ -145,6 +145,7 @@ func resourcePingdomCheck() *schema.Resource {
 				Type:     schema.TypeBool,
 				Optional: true,
 				ForceNew: false,
+				Default:  true,
 			},
 			"ssldowndaysbefore": {
 				Type:     schema.TypeInt,

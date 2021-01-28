@@ -217,7 +217,7 @@ For the HTTP checks, you can set these attributes:
   
   * **verifycertificate** - if `encryption` is set to true, should the ssl certificate be checked? 
   
-  * **ssldowndaysbefore** - if `encryption`and `verifycertificate` are set to true, how much days for a SSL expiry is expected to be failing.
+  * **ssldowndaysbefore** - if `encryption`and `verifycertificate` are set to true, how much days for a SSL certificate expiry is expected to be failing.
 
 #### TCP specific attributes ####
 

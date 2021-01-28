@@ -214,6 +214,10 @@ For the HTTP checks, you can set these attributes:
   * **tags** - List of tags the check should contain. Should be in the format "tagA,tagB"
 
   * **probefilters** - Region from which the check should originate. One of NA, EU, APAC, or LATAM. Should be in the format "region:NA"
+  
+  * **verifycertificate** - if `encryption` is set to true, should the ssl certificate be checked? 
+  
+  * **ssldowndaysbefore** - if `encryption`and `verifycertificate` are set to true, how much days for a SSL expiry is expected to be failing.
 
 #### TCP specific attributes ####
 

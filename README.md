@@ -17,7 +17,7 @@ This supports Pingdom API v3.1: [API reference docs](https://docs.pingdom.com/ap
 terraform {
   required_providers {
     pingdom = {
-      source = "nordcloud/pingdom"
+      source = "getditto/pingdom"
       version = "1.1.4"
     }
   }
